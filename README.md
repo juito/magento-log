@@ -1,8 +1,8 @@
+[![ebay logo](docs/static/logo-vert.png)](http://www.ebayenterprise.com/)
+
 # eBay Enterprise Mage Logger
 
-Copyright © 2014 eBay Enterprise
-
-## Purpose
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/eBayEnterprise/magento-log/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/eBayEnterprise/magento-log/?branch=master)
 
 This module provides [PSR-3][0] compliant logging, rich logging context, JSON
 formatting and querying, and notification levels for logs.
@@ -68,9 +68,12 @@ var/log/system.log file.
 
 [Contributing to This Project](CONTRIBUTING.md)
 
-Licensed under the terms of the Open Software License v. 3.0 (OSL-3.0).
-See [LICENSE.md](LICENSE.md) or http://opensource.org/licenses/OSL-3.0 for
-the full text of the license.
+## License
+
+Licensed under the terms of the Open Software License v. 3.0 (OSL-3.0). See [LICENSE.md](LICENSE.md) or http://opensource.org/licenses/OSL-3.0 for the full text of the license.
+
+- - -
+Copyright © 2014 eBay Enterprise, Inc.
 
 [0]: http://www.php-fig.org/psr/psr-3/
 [1]: https://www.elastic.co/products/logstash

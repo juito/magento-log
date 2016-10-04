@@ -1,34 +1,38 @@
 {
-	"name": "ebayenterprise/magento-log",
-	"description": "Standardized Logging for Magento",
-	"license": "OSL-3.0",
-	"type": "magento-module",
-	"authors": [
-		{ "name": "Michael A. Smith", "email": "msmith3@ebay.com" },
-		{ "name": "Michael Phang", "email": "mphang@ebay.com" },
-		{ "name": "Mike West", "email": "micwest@ebay.com" },
-		{ "name": "Reginald Gabriel", "email": "rgabriel@ebay.com" },
-		{ "name": "Scott van Brug", "email": "svanbrug@ebay.com" }
-	],
-	"require": {
-		"psr/log": "~1.0"
-	},
-	"require-dev": {
-		"ecomdev/ecomdev_phpunit": ">=0.3",
-		"pdepend/pdepend": ">=1.1",
-		"phpdocumentor/phpdocumentor": ">=2.4",
-		"phploc/phploc": ">=2.0",
-		"phpmd/phpmd": ">=1.5",
-		"phpunit/dbunit": ">=1",
-		"phpunit/php-invoker": ">=1.1",
-		"phpunit/phpunit-selenium": ">=1",
-		"phpunit/phpunit-story": ">=1",
-		"sebastian/phpcpd": ">=2.0",
-		"squizlabs/php_codesniffer": ">=1.5"
-	},
-	"extra": {
-		"branch-alias": {
-			"dev-master": "2.0.x-dev"
-		}
-	}
+    "name": "ebayenterprise/magento-log",
+    "description": "Standardized Logging for Magento",
+    "license": "OSL-3.0",
+    "type": "magento-module",
+    "authors": [
+        { "name": "Michael A. Smith", "email": "msmith3@ebay.com" },
+        { "name": "Michael Phang", "email": "mphang@ebay.com" },
+        { "name": "Mike West", "email": "micwest@ebay.com" },
+        { "name": "Reginald Gabriel", "email": "rgabriel@ebay.com" },
+        { "name": "Scott van Brug", "email": "svanbrug@ebay.com" }
+    ],
+    "require": {
+        "php": "^5.4.0",
+        "psr/log": "~1.0"
+    },
+    "require-dev": {
+        "ecomdev/ecomdev_phpunit": ">=0.3",
+        "pdepend/pdepend": ">=1.1",
+        "phpdocumentor/phpdocumentor": ">=2.4",
+        "phploc/phploc": ">=2.0",
+        "phpmd/phpmd": ">=1.5",
+        "phpunit/dbunit": ">=1",
+        "phpunit/php-invoker": ">=1.1",
+        "phpunit/phpunit-selenium": ">=1",
+        "phpunit/phpunit-story": ">=1",
+        "sebastian/phpcpd": ">=2.0",
+        "squizlabs/php_codesniffer": ">=1.5"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    },
+    "repositories": [
+        { "type": "composer", "url": "https://packages.firegento.com/" }
+    ]
 }
